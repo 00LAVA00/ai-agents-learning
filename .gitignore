@@ -1,0 +1,29 @@
+# Ignore virtual environment directory
+myenv/
+
+# Ignore Python bytecode files
+.mypy_cache/
+*.pyc
+*.pyo
+__pycache__/
+
+
+# Ignore other common IDE and editor files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Ignore log files
+*.log
+
+# Ignore sensitive config files (e.g., if you store API keys or credentials here)
+*.env
+
+# Ignore coverage files
+.coverage
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
